@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Destinations dataset",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "destination_name",
+      "country_code",
+      "region",
+      "primary_language",
+      "currency_code",
+      "solo_travel_score",
+      "digital_nomad_score"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "destination_name": {
+        "type": "string"
+      },
+      "country_code": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 2
+      },
+      "region": {
+        "type": "string"
+      },
+      "primary_language": {
+        "type": "string"
+      },
+      "currency_code": {
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 3
+      },
+      "solo_travel_score": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      },
+      "digital_nomad_score": {
+        "type": "integer",
+        "minimum": 0,
+        "maximum": 100
+      }
+    },
+    "additionalProperties": false
+  }
+}

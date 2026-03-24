@@ -1,0 +1,32 @@
+[
+  {
+    "id": "dst-001",
+    "destination_name": "Skylake",
+    "country_code": "CA",
+    "region": "North America",
+    "primary_language": "English",
+    "currency_code": "CAD",
+    "solo_travel_score": 88,
+    "digital_nomad_score": 74
+  },
+  {
+    "id": "dst-002",
+    "destination_name": "Port Amber",
+    "country_code": "PT",
+    "region": "Europe",
+    "primary_language": "Portuguese",
+    "currency_code": "EUR",
+    "solo_travel_score": 91,
+    "digital_nomad_score": 86
+  },
+  {
+    "id": "dst-003",
+    "destination_name": "Rivergate",
+    "country_code": "MK",
+    "region": "Europe",
+    "primary_language": "Macedonian",
+    "currency_code": "MKD",
+    "solo_travel_score": 79,
+    "digital_nomad_score": 68
+  }
+]
